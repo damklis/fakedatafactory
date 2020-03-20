@@ -49,6 +49,6 @@ Returns:
 
 # Contribution
 
-You can easily create a new DataFrame type adding subclass of FakeRowBase to file `fake_rows.py`.
+You can easily create a new DataFrame type adding subclass of FakeRowBase to file [`fake_rows.py`](https://github.com/damklis/fakedatafactory/blob/master/fakedatafactory/fakerow/fake_rows.py).
 Requirement:
 * Your class name needs to end with `FakeRow` phrase. (example: `FootballGameFakeRow`)
