@@ -11,7 +11,7 @@ Recommended library to generate fake data:
 # Usage
 1.List all currently available DataFrames.
 ```python
-import FakeDataFrameFactory
+from fakedatafactory import FakeDataFactory
 
 fake_df_factory = FakeDataFrameFactory()
 
@@ -25,7 +25,7 @@ Returns:
 
 2.Create fake pandas DataFrame.
 ```python
-import FakeDataFrameFactory
+from fakedatafactory import FakeDataFactory
 
 fake_df_factory = FakeDataFrameFactory()
 
@@ -37,7 +37,7 @@ fake_df_factory.generate_fake_dataframe(
 
 Returns:
 
-| l | date | first_name | surname | city | email | company |
+| l | date | first_name | surname | state | email | company |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 0 | 2019-07-25| Megan | Fischer | Connecticut | meganfischer@hotmail.com | Miller-Castro |
 | 1 | 2019-06-23| James | Moore | Hawaii | jamesmoore@hotmail.com | Holloway and Sons |
@@ -49,6 +49,6 @@ Returns:
 
 # Contribution
 
-You can easily create a new DataFrame adding subclass of FakeRowBase to file `fake_rows.py`.
+You can easily create a new DataFrame type adding subclass of FakeRowBase to file `fake_rows.py`.
 Requirement:
 * Your class name needs to end with `FakeRow` phrase. (example: `FootballGameFakeRow`)
