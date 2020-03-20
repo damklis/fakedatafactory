@@ -13,9 +13,9 @@ Recommended library to generate fake data:
 ```python
 from fakedatafactory import FakeDataFactory
 
-fake_df_factory = FakeDataFrameFactory()
+fake_data_factory = FakeDataFactory()
 
-fake_df_factory.list_available_dataframe_types()
+fake_data_factory.list_available_dataframe_types()
 ```
 
 Returns:
@@ -27,9 +27,9 @@ Returns:
 ```python
 from fakedatafactory import FakeDataFactory
 
-fake_df_factory = FakeDataFrameFactory()
+fake_data_factory = FakeDataFactory()
 
-fake_df_factory.generate_fake_dataframe(
+fake_data_factory.generate_fake_dataframe(
     dataframe_type="customer",
     num_of_rows=5
 )
