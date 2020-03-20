@@ -8,7 +8,17 @@ marketing campaign data, customer and transaction data, etc.
 Recommended library to generate fake data:
 * [Faker](https://github.com/joke2k/faker) is a Python package that generates fake data for you. Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker is for you.
 
+# Requirements
+
+Install the dependencies from requirements.txt file.
+
+```bash
+$ pip install -r requirements.txt
+
+```
+
 # Usage
+
 1.List all currently available DataFrames.
 ```python
 from fakedatafactory import FakeDataFactory
