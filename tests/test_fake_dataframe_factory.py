@@ -1,8 +1,8 @@
 import pytest
 import pandas as pd
 from pandas.testing import assert_frame_equal
-from fakedatafactory import fake_rows
-from fakedatafactory.fake_row_base import FakeRowBase
+from fakedatafactory.fakerow import fake_rows
+from fakedatafactory.fakerow.fake_row_base import FakeRowBase
 from fakedatafactory.fake_data_factory import (
     FakeDataFactory, _FakeRowParser
 )

@@ -1,5 +1,5 @@
 import pandas as pd
-from fakedatafactory import fake_rows
+from fakedatafactory.fakerow import fake_rows
 
 
 class FakeDataFactory:

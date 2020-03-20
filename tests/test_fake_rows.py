@@ -1,5 +1,5 @@
 import pytest
-from fakedatafactory.fake_row_base import FakeRowBase
+from fakedatafactory.fakerow.fake_row_base import FakeRowBase
 
 
 @pytest.fixture()

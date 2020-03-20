@@ -1,6 +1,6 @@
 import uuid
 import random
-from fakedatafactory.fake_row_base import FakeRowBase
+from fakedatafactory.fakerow.fake_row_base import FakeRowBase
 
 
 class CardTransactionFakeRow(FakeRowBase):
